@@ -1,0 +1,38 @@
+.fixedInfo{
+    position: fixed;
+    z-index: 99;
+}
+.filter{
+    width: 100%;
+    margin-top: 64px;
+}
+.fab-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.smallText{
+    font-size: 12px;
+}
+.info{
+    position: fixed;
+    top: 45px;
+    left: 15px;
+    font-size: 9px;
+    height: 8px;
+    margin-top: -14px;
+}
+
+mat-card{
+    margin-top: 20px;
+}
+
+.content {
+  padding-top: 100px;
+}
+
+.contato a {
+    text-decoration: none;
+    color: black;
+}
