@@ -12,7 +12,10 @@
         Filtros
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <div fxLayout.lt-sm="column" fxLayoutGap.gt-xs="40px" fxLayout="row">
+    <p *ngIf="loading">
+      Carregando os dados...
+    </p>
+    <div *ngIf="!loading" fxLayout.lt-sm="column" fxLayoutGap.gt-xs="40px" fxLayout="row">
       <mat-form-field fxFlex.gt-xs="250px">
         <mat-label>Estado</mat-label>
         <mat-select [(value)]="estado">
