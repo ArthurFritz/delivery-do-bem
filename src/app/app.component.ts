@@ -13,16 +13,12 @@ export class AppComponent {
   estado;
   cidade = "Selecione um estado";
   tipoServiceSelect;
-
-  resultExample = {};
-
   loading = true;
 
 
   constructor(private deliveryService: DeliveryService){
     this.deliveryService.getDeliverys().subscribe(suc=>{
-        this.resultExample = suc;
-        this.tratitFilters();
+        this.tratitFilters(suc);
         this.loading = false;
     }, err=>{
       this.loading = false;
@@ -50,8 +46,8 @@ export class AppComponent {
   }
 
 
-  private tratitFilters(){
-    this.resultExample.data.forEach(item => {
+  private tratitFilters(result){
+    result.data.forEach(item => {
       if(!this.filters[item["Estado"]]){
         this.filters[item["Estado"]] = {};
       }
