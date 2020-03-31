@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1585677323847,
+  "index": "https://arthurfritz.github.io/delivery-do-bem/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://arthurfritz.github.io/delivery-do-bem/favicon.ico",
+        "https://arthurfritz.github.io/delivery-do-bem/index.html",
+        "https://arthurfritz.github.io/delivery-do-bem/main-es2015.ae9503b8b722abe0d423.js",
+        "https://arthurfritz.github.io/delivery-do-bem/main-es5.ae9503b8b722abe0d423.js",
+        "https://arthurfritz.github.io/delivery-do-bem/manifest.webmanifest",
+        "https://arthurfritz.github.io/delivery-do-bem/polyfills-es2015.3fd94ed6a324eee92aec.js",
+        "https://arthurfritz.github.io/delivery-do-bem/polyfills-es5.c219b7059a7feb126472.js",
+        "https://arthurfritz.github.io/delivery-do-bem/runtime-es2015.0811dcefd377500b5b1a.js",
+        "https://arthurfritz.github.io/delivery-do-bem/runtime-es5.0811dcefd377500b5b1a.js",
+        "https://arthurfritz.github.io/delivery-do-bem/styles.9df3082cf7749292ecb6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-128x128.png",
+        "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-144x144.png",
+        "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-152x152.png",
+        "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-192x192.png",
+        "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-384x384.png",
+        "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-512x512.png",
+        "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-72x72.png",
+        "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-128x128.png": "7340ab2be0ccb1e067b8632d22c6d398306b4d87",
+    "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-144x144.png": "65ac2eb5600eca8631c6ba2d04f527307a4a6f28",
+    "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-152x152.png": "8bda9faaf677f690a4c2803d9d39c8554ba53b3c",
+    "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-192x192.png": "1f0e4bfdd11fde6ad53626db06c4f9261a9d2eda",
+    "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-384x384.png": "f3650ae243f473296308263f6b0990761ed90f7f",
+    "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-512x512.png": "c4fd0f6e8ec94a0f2d9651f387ffd1b9e935db83",
+    "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-72x72.png": "02089b57fcfc1094c4fd9162d2fea60b48363e63",
+    "https://arthurfritz.github.io/delivery-do-bem/assets/icons/icon-96x96.png": "d5b80d5202e7e8535c51c2becc7435c38fc952a1",
+    "https://arthurfritz.github.io/delivery-do-bem/favicon.ico": "c4fd0f6e8ec94a0f2d9651f387ffd1b9e935db83",
+    "https://arthurfritz.github.io/delivery-do-bem/index.html": "6732f566513a46d7acb9c03eb1d5b158ebb6e063",
+    "https://arthurfritz.github.io/delivery-do-bem/main-es2015.ae9503b8b722abe0d423.js": "3688bdd9b4834b65a969ad53dccc92e4a1884e18",
+    "https://arthurfritz.github.io/delivery-do-bem/main-es5.ae9503b8b722abe0d423.js": "d2e4c5be5b64e99d9600ee4434cd8b710c7621b3",
+    "https://arthurfritz.github.io/delivery-do-bem/manifest.webmanifest": "a576b8709d041ad6707b6f6df2c7e052859c4c90",
+    "https://arthurfritz.github.io/delivery-do-bem/polyfills-es2015.3fd94ed6a324eee92aec.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "https://arthurfritz.github.io/delivery-do-bem/polyfills-es5.c219b7059a7feb126472.js": "e5472003c8575a8fca7583648df3905038faeb18",
+    "https://arthurfritz.github.io/delivery-do-bem/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://arthurfritz.github.io/delivery-do-bem/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://arthurfritz.github.io/delivery-do-bem/styles.9df3082cf7749292ecb6.css": "8cd3ec225109f6266fd950e34042c741805b4d7c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
