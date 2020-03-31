@@ -47,6 +47,7 @@ export class AppComponent {
 
 
   private tratitFilters(result){
+    var code = 1;
     result.data.forEach(item => {
       if(!this.filters[item["Estado"]]){
         this.filters[item["Estado"]] = {};
@@ -61,8 +62,10 @@ export class AppComponent {
           this.filters[item["Estado"]][cidade][servico] = {}
           this.filters[item["Estado"]][cidade][servico].list = []
         }
+        item.code = code;
         this.filters[item["Estado"]][cidade][servico].list.push(item);  
       });
+      code++;  
     });
   }
 
@@ -82,17 +85,24 @@ export class AppComponent {
     var tipos = this.tipoServico();
     var servicos =  [];
     if(tipos.length > 0){
+      let codes = [];
       tipos.forEach(tipo=>{
         if(this.filters[this.estado][this.cidade][tipo].selected) {
           this.filters[this.estado][this.cidade][tipo].list.forEach(element=>{
-            servicos.push(element)
+            if(!codes.includes(element.code)){
+              codes.push(element.code);
+              servicos.push(element)
+            }
           })
         }
       });
       if(servicos.length == 0){
         tipos.forEach(tipo=>{
           this.filters[this.estado][this.cidade][tipo].list.forEach(element=>{
-            servicos.push(element)
+            if(!codes.includes(element.code)){
+              codes.push(element.code);
+              servicos.push(element)
+            }
           })
         });
       }
