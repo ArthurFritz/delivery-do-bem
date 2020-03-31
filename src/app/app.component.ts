@@ -14,22 +14,20 @@ export class AppComponent {
   cidade = "Selecione um estado";
   tipoServiceSelect;
 
-  resultExample = JSON.parse('{"data":[{"Carimbo de data/hora":"2020-03-27T20:45:29.315Z","Endereço de e-mail":"admin@deliverydobem.com","Nome Fantasia":"Cia Sasaki","Estado":"PR - Paraná","Cidade":"Maringá","Tipo de serviço":"Hortifruti","Telefone para Whattszap":"(44) 98402-8929","Telefone":"(44) 98402-8929","Responsável":"","Instagram":"@ciasasaki","Facebook":"","Site":"","Dias de atendimento":"","Horário de atendimento":"","Observações de entrega":"","Demais informações":""},{"Carimbo de data/hora":"2020-03-27T20:45:29.315Z","Endereço de e-mail":"admin@deliverydobem.com","Nome Fantasia":"Banca da Elisa","Estado":"PR - Paraná","Cidade":"Maringá","Tipo de serviço":"Hortifruti","Telefone para Whattszap":"(44) 99808-1436","Telefone":"(44) 99814-0767","Responsável":"Elisa e Cleon","Instagram":"@rebecabrall e @beth_capato","Facebook":"","Site":"","Dias de atendimento":"","Horário de atendimento":"","Observações de entrega":"","Demais informações":""},{"Carimbo de data/hora":"2020-03-27T20:45:29.315Z","Endereço de e-mail":"admin@deliverydobem.com","Nome Fantasia":"Horta Seleta","Estado":"PR - Paraná","Cidade":"Maringá","Tipo de serviço":"Hortifruti","Telefone para Whattszap":"(44) 99980-4670","Telefone":"(44) 99980-4670","Responsável":"Graziela","Instagram":"@hortaseleta","Facebook":"","Site":"","Dias de atendimento":"","Horário de atendimento":"","Observações de entrega":"","Demais informações":""},{"Carimbo de data/hora":"2020-03-27T20:45:29.315Z","Endereço de e-mail":"admin@deliverydobem.com","Nome Fantasia":"Sacolão Tropical","Estado":"PR - Paraná","Cidade":"Maringá","Tipo de serviço":"Hortifruti","Telefone para Whattszap":"(44)99139-0452","Telefone":"(44)3226-8689","Responsável":"","Instagram":"@saco.laotropical","Facebook":"","Site":"","Dias de atendimento":"","Horário de atendimento":"","Observações de entrega":"","Demais informações":""},{"Carimbo de data/hora":"2020-03-27T20:45:29.315Z","Endereço de e-mail":"admin@deliverydobem.com","Nome Fantasia":"Naturalis Agroecologia","Estado":"PR - Paraná","Cidade":"Maringá","Tipo de serviço":"Hortifruti","Telefone para Whattszap":"(44) 99745-9929","Telefone":"(44) 99745-9929","Responsável":"","Instagram":"@naturalis_ciclo_da_esperanca","Facebook":"","Site":"","Dias de atendimento":"","Horário de atendimento":"","Observações de entrega":"","Demais informações":""},{"Carimbo de data/hora":"2020-03-27T20:45:29.315Z","Endereço de e-mail":"admin@deliverydobem.com","Nome Fantasia":"Pontal Nature Orgânicos","Estado":"PR - Paraná","Cidade":"Maringá","Tipo de serviço":"Hortifruti","Telefone para Whattszap":"(44) 99103-6328","Telefone":"(44) 99103-6328","Responsável":"","Instagram":"@pontalnature","Facebook":"","Site":"","Dias de atendimento":"","Horário de atendimento":"","Observações de entrega":"","Demais informações":""},{"Carimbo de data/hora":"2020-03-27T20:45:29.315Z","Endereço de e-mail":"admin@deliverydobem.com","Nome Fantasia":"Katsu Alimentos","Estado":"PR - Paraná","Cidade":"Maringá","Tipo de serviço":"Hortifruti","Telefone para Whattszap":"(44) 99927-8984","Telefone":"(44) 99927-8984","Responsável":"","Instagram":"@katsu_alimentos","Facebook":"","Site":"","Dias de atendimento":"","Horário de atendimento":"","Observações de entrega":"","Demais informações":""},{"Carimbo de data/hora":"2020-03-27T20:45:29.315Z","Endereço de e-mail":"admin@deliverydobem.com","Nome Fantasia":"Carlos Frutaria","Estado":"PR - Paraná","Cidade":"Maringá","Tipo de serviço":"Hortifruti","Telefone para Whattszap":"(44) 99707-5781","Telefone":"(44) 99707-5781","Responsável":"Carlos","Instagram":"","Facebook":"","Site":"","Dias de atendimento":"","Horário de atendimento":"","Observações de entrega":"","Demais informações":""},{"Carimbo de data/hora":"2020-03-27T20:45:29.315Z","Endereço de e-mail":"admin@deliverydobem.com","Nome Fantasia":"Barraca do Gaviolli","Estado":"PR - Paraná","Cidade":"Maringá","Tipo de serviço":"Hortifruti","Telefone para Whattszap":"(44)99726-2991","Telefone":"(44)99805-5340","Responsável":"","Instagram":"","Facebook":"","Site":"","Dias de atendimento":"","Horário de atendimento":"","Observações de entrega":"","Demais informações":""},{"Carimbo de data/hora":"2020-03-27T20:45:29.315Z","Endereço de e-mail":"admin@deliverydobem.com","Nome Fantasia":"Casa Bah Atelie","Estado":"PR - Paraná","Cidade":"Maringá","Tipo de serviço":"Confeitaria","Telefone para Whattszap":"(44) 9941-9329","Telefone":"(44) 9941-9329","Responsável":"Barbara e Douglas","Instagram":"","Facebook":"","Site":"www.casabahdoces.com","Dias de atendimento":"","Horário de atendimento":"","Observações de entrega":"","Demais informações":""},{"Carimbo de data/hora":"","Endereço de e-mail":"","Nome Fantasia":"","Estado":"","Cidade":"","Tipo de serviço":"","Telefone para Whattszap":"","Telefone":"","Responsável":"","Instagram":"","Facebook":"","Site":"","Dias de atendimento":"","Horário de atendimento":"","Observações de entrega":"","Demais informações":""}],"result":200}');
-  cardExample = JSON.parse('{"Carimbo de data/hora":"2020-03-29T20:53:13.060Z","Endereço de e-mail":"teste@teste.com.br","Nome Fantasia":"Teste","Estado":"AM - Amazonas","Cidade":"Teste","Tipo de serviço":"Hortifruti, Mercearia, 123","Telefone para Whattszap":"","Telefone":"(44) 99892-2177","Responsável":"sdf","Instagram":"","Facebook":"","Site":"","Dias de atendimento":"Domingo, Segunda, Terça, Quarta, Quinta, Sexta, Sábado","Horário de atendimento":"","Observações de entrega":"","Demais informações":" olele"}');
+  resultExample = {};
+
+  loading = true;
+
 
   constructor(private deliveryService: DeliveryService){
-
-    /*
     this.deliveryService.getDeliverys().subscribe(suc=>{
-      console.log("sucesso", suc)
-    }, console.error)
-    */
-
-    this.tratitFilters();
-
-    console.log(this.filters)
-
-
+        this.resultExample = suc;
+        this.tratitFilters();
+        this.loading = false;
+    }, err=>{
+      this.loading = false;
+      alert("Ocorreu um erro ao obter os dados dos estabelecimentos");
+    });
   }
   estados() {
     return Object.keys(this.filters).filter(item=> item.length > 0);
